@@ -146,7 +146,6 @@ if __name__ == "__main__":
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.per_device_train_batch_size,
         per_device_eval_batch_size=args.per_device_eval_batch_size,
-        warmup_steps=args.warmup_steps,
         fp16=args.fp16,
         learning_rate=float(args.learning_rate),
         seed=33,
