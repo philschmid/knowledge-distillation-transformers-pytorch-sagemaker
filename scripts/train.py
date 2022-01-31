@@ -186,8 +186,8 @@ if __name__ == "__main__":
     student_model = student_init()
 
     trainer = DistillationTrainer(
-        student_model,
-        training_args,
+        model_init=student_init,
+        args=training_args,
         teacher_model=teacher_model,
         train_dataset=tokenized_datasets["train"],
         eval_dataset=tokenized_datasets["validation"],
