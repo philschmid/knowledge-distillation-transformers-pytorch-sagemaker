@@ -80,8 +80,6 @@ if __name__ == "__main__":
 
     # Data, model, and output directories
     parser.add_argument("--output_dir", type=str, default=os.environ["SM_MODEL_DIR"])
-    parser.add_argument("--training_dir", type=str, default=os.environ["SM_CHANNEL_TRAIN"])
-    parser.add_argument("--eval_dir", type=str, default=os.environ["SM_CHANNEL_EVAL"])
 
     # Push to Hub Parameters
     parser.add_argument("--push_to_hub", type=bool, default=True)
