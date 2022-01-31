@@ -68,7 +68,7 @@ if __name__ == "__main__":
     parser.add_argument("--per_device_train_batch_size", type=int, default=1024)
     parser.add_argument("--per_device_eval_batch_size", type=int, default=1024)
     parser.add_argument("--alpha", type=float, default=0.5)
-    parser.add_argument("--temparature", type=int, default=4)
+    parser.add_argument("--temperature", type=int, default=4)
     parser.add_argument("--teacher_id", type=str)
     parser.add_argument("--student_id", type=str)
     parser.add_argument("--dataset_id", type=str)
