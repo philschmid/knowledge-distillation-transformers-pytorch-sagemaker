@@ -5,7 +5,7 @@
 This Repository contains to Notebooks: 
 
 * [knowledge-distillation](knowledge-distillation.ipynb) a step-by-step example on how distil the knowledge from the teacher to the student.
-* [sagemaker-distillation](sagemaker-distillation.ipynb) a derived version of the first notebook, which shows how to scale your training for distributed training using Amazon SageMaker.
+* [sagemaker-distillation](sagemaker-distillation.ipynb) a derived version of the first notebook, which shows how to scale your training for automatic HPO using Amazon SageMaker.
 
 ---
 
